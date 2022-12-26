@@ -38,20 +38,7 @@ RESET='\e[0m'
 # UN-COMMENT TO ENABLE PROXY
 #export HYDRA_PROXY=socks4://127.0.0.1:9050
 
-if [ -z $TARGET ]; then
-	echo -e "$COLOR1 __________                __         ____  ___$RESET"
-	echo -e "$COLOR1 \______   \_______ __ ___/  |_  ____ \   \/  /$RESET"
-	echo -e "$COLOR1  |    |  _/\_  __ \  |  \   __\/ __ \ \     / $RESET"
-	echo -e "$COLOR1  |    |   \ |  | \/  |  /|  | \  ___/ /     \ $RESET"
-	echo -e "$COLOR1  |______  / |__|  |____/ |__|  \___  >___/\  \ $RESET"
-	echo -e "$COLOR1         \/                         \/      \_/$RESET"
-	echo ""
-	echo -e "$COLOR1 + -- --=[ BruteX v$VER by @xer0dayz$RESET"
-	echo -e "$COLOR1 + -- --=[ https://sn1persecurity.com$RESET"
-	echo -e "$COLOR1 + -- --=[ Usage: brutex <target> <port>"
-	echo -e "$RESET"
-	exit
-fi
+
 
 DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 
