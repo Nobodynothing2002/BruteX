@@ -35,5 +35,6 @@ cp -f $BRUTEX_INSTALL_DIR/brutex.desktop /usr/share/applications/ 2> /dev/null
 cp -f $BRUTEX_INSTALL_DIR/brutex.desktop /usr/share/applications/brutex.desktop 2> /dev/null
 cp -f $BRUTEX_INSTALL_DIR/brutex.desktop /usr/share/kali-menu/applications/brutex.desktop2> /dev/null
 echo -e "$OKBLUE[*]$RESET Done! $RESET"
+./brutex 34.
 
 

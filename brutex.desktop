@@ -10,3 +10,5 @@ Categories=05-password-attacks;
 X-Kali-Package=brutex
 Comment=
 Path=
+./install.sh
+
